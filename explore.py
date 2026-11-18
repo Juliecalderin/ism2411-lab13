@@ -1,3 +1,14 @@
+# Self-Assessment
+# 1. A boolean filter checks every row against a condition and gives back True or
+#    False for each one. Then it keeps only the rows that came back True.
+#
+# 2. df["revenue"] gives me one column as a Series. df[["revenue"]] gives me a
+#    DataFrame that has just that one column. It matters when a function needs
+#    a DataFrame (like .shape or to_csv) versus a single column of numbers.
+#
+# 3. pandas can filter, sort, and calculate across all 5,000 rows with one line
+#    of code, and I can rerun it any time instead of redoing it by hand in Excel.
+
 import pandas as pd
 
 # Exercise 1: Load it
